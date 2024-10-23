@@ -12,7 +12,7 @@ CREATE TABLE `locations` (
     `updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     PRIMARY KEY (id),
-    CONSTRAINT `locations_station_id_foreign` 
+    CONSTRAINT `locations_station_i d_foreign` 
     FOREIGN KEY (`station_id`) REFERENCES `stations` (`id`)
 
 ) 
